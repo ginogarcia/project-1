@@ -1,6 +1,7 @@
 Project1::Application.routes.draw do
-  get "pages/new"
-
+    resources :bookmarks
+    resources :pages
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
