@@ -4,6 +4,7 @@ Project1::Application.routes.draw do
     
     root       :to => 'pages#home'
     match   '/new',     :to => 'bookmarks#new'
+    match   '/index',   :to => 'bookmarks#index'
  
   # The priority is based upon order of creation:
   # first created -> highest priority.
