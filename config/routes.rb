@@ -1,6 +1,9 @@
 Project1::Application.routes.draw do
     resources :bookmarks
     resources :pages
+    
+    root       :to => 'pages#home'
+    match   '/new',     :to => 'bookmarks#new'
  
   # The priority is based upon order of creation:
   # first created -> highest priority.

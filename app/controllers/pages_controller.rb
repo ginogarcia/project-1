@@ -1,5 +1,10 @@
 class PagesController < ApplicationController
-  def new
-  end
 
+    def home
+        @title = "Bookmarks Project Home Page"
+    end
+    
+    def new
+        @title = "New Bookmark"
+    end
 end

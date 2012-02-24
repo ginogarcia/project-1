@@ -10,6 +10,11 @@ class BookmarksController < ApplicationController
             format.json { render json: @bookmark }
          end
      end
+     
+    #GET /bookmarks/home
+    def home
+        @title = "My Bookmarks Home page"
+    end
 
 
     #GET /bookmarks/1
