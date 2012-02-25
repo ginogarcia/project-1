@@ -1,6 +1,6 @@
-.container {width: 710px;}
-
-body {background: #blue; }
+.container {width: 710px; 
+            }
+body {background: #cff;}
 
 header { padding-top: 20px;}
 
@@ -54,22 +54,43 @@ a.signup_button {margin-left: auto;
 }
 /* Round corners */
 
-.round {
+
+.round, .round-header,  .round-footer {
+         
 		  -moz-border-radius:    10px;
 		  -webkit-border-radius: 10px;
 		  border-radius:         10px;
+		  background:#cff;
 }
 
-footer {
+.round-logo {width: 720px;
+            height: 115px;
+} 
+                   
+.round-body {position:relative;
+              left:18px;
+              width:710px;
+              background: #cff;}
+
+.round-header {position:absolute;
+               top: 15px; left: 625px;}
+
+round-footer  {
+          position:relative;
+          
 		  text-align: center;
 		  margin-top: 10px;
-		  width: 710px;
+		  width: 510px;
 		  margin-left: auto;
 		  margin-right: auto;
+		  background: #cff;
 }
 
 footer nav {
+            position:relative;
+            top: 10px;
+            width: 510px;
+            left:180px;
+             background: #cff;
  		 float: none;
 }
-
-
